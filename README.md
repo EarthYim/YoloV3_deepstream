@@ -19,6 +19,8 @@ The scripts can be found in `/nvdsinfer_custom_impl_Yolo/nvdsparsebbox_Yolo.cpp`
 
 ## Running Deepstream App
 
+### For nvidia Jetson
+* Clonning this repository into `/opt/nvidia/deepstream/deepstream4.0/sources`
 1. Compile nvsdinfer in `/nvdsinfer_custom_impl_Yolo` using `$ make`
 2. Specify source, output, and labels in `deepstream_app_config_yoloV3.txt` (OSD – on screen display and others display setting can also be configure here)
 3. Specify .weights and .cfg's path in `config_infer_primary_yoloV3.txt`
