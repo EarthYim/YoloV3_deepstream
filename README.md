@@ -8,7 +8,7 @@ Basics APIs can be configured through *deepstream_app_config_yoloV3.txt*
 
 ## Integrating Yolo model into Deepstream
 
-To use a Yolo model, Deepstream will convert a model (consists of .weights and **yolov3.cfg**) into TensorRT engine. This can be specified in *config_infer_primary_yoloV3.txt*.  On execution, if the engine is not detected, Deepstream will automatically build an engine from weights and cfg, then saved it to the main directory which can be use next time.
+To use a Yolo model, Deepstream will convert a model (consists of .weights and **yolov3.cfg**[case sensitive]) into TensorRT engine. This can be specified in *config_infer_primary_yoloV3.txt*.  On execution, if the engine is not detected, Deepstream will automatically build an engine from weights and cfg, then saved it to the main directory which can be use next time.
 
 ## Bounding Box Parser
 
